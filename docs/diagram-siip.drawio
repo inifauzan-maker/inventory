@@ -1,0 +1,799 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="SIIP" version="24.7.17">
+  <diagram id="page-1" name="01 Diagram Alur Pengadaan dan Aktivasi">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="01 Diagram Alur Pengadaan dan Aktivasi" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="1540" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="1540" height="30" />
+        </mxCell>
+        <mxCell id="start" value="Kebutuhan barang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="120" width="380" height="65" />
+        </mxCell>
+        <mxCell id="draft" value="Buat dan kirim pengajuan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="215" width="380" height="65" />
+        </mxCell>
+        <mxCell id="finance" value="Review Keuangan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="310" width="380" height="65" />
+        </mxCell>
+        <mxCell id="fok" value="Disetujui&lt;br&gt;Keuangan?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89839;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="405" width="380" height="65" />
+        </mxCell>
+        <mxCell id="director" value="Review Direksi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="500" width="380" height="65" />
+        </mxCell>
+        <mxCell id="dok" value="Disetujui&lt;br&gt;Direksi?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89839;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="595" width="380" height="65" />
+        </mxCell>
+        <mxCell id="po" value="Buat PO bertahap dari pengajuan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="690" width="380" height="65" />
+        </mxCell>
+        <mxCell id="pok" value="PO disetujui?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#B89839;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="785" width="380" height="65" />
+        </mxCell>
+        <mxCell id="receive" value="Barang diterima sesuai PO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="880" width="380" height="65" />
+        </mxCell>
+        <mxCell id="inspect" value="Pemeriksaan fisik barang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="975" width="380" height="65" />
+        </mxCell>
+        <mxCell id="docs" value="Verifikasi dokumen dan referensi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1070" width="380" height="65" />
+        </mxCell>
+        <mxCell id="register" value="Input inventaris dan generate nomor per unit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1165" width="380" height="65" />
+        </mxCell>
+        <mxCell id="print" value="Cetak label dan konfirmasi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1260" width="380" height="65" />
+        </mxCell>
+        <mxCell id="attach" value="Tempel label dan konfirmasi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1355" width="380" height="65" />
+        </mxCell>
+        <mxCell id="place" value="Penempatan lokasi dan ruangan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1450" width="380" height="65" />
+        </mxCell>
+        <mxCell id="handover" value="Serah terima dengan nama dan referensi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1545" width="380" height="65" />
+        </mxCell>
+        <mxCell id="active" value="Barang Aktif" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="450" y="1640" width="380" height="65" />
+        </mxCell>
+        <mxCell id="edge-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="start" target="draft">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="draft" target="finance">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="finance" target="fok">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="fok" target="director">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="director" target="dok">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="dok" target="po">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="po" target="pok">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="Ya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="pok" target="receive">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="receive" target="inspect">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="inspect" target="docs">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="docs" target="register">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="register" target="print">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="print" target="attach">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="attach" target="place">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="place" target="handover">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="handover" target="active">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="reject" value="Pengajuan ditolak&lt;br&gt;Buat pengajuan baru bila perlu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1050" y="460" width="350" height="85" />
+        </mxCell>
+        <mxCell id="edge-18" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="fok" target="reject">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-19" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="dok" target="reject">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rejectpo" value="PO ditolak&lt;br&gt;Alokasi jumlah dilepas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1050" y="790" width="350" height="85" />
+        </mxCell>
+        <mxCell id="edge-20" value="Tidak" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="pok" target="rejectpo">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rules" value="Aturan: draf PO mencadangkan jumlah; total PO terhubung ≤ persetujuan; penerimaan kumulatif ≤ PO. Nomor tidak berubah dan tidak digunakan kembali. Pengulangan tahap ditolak." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="125" width="320" height="200" />
+        </mxCell>
+        <mxCell id="manual" value="Jalur alternatif&lt;br&gt;Tambah aset manual atau impor&lt;br&gt;Konfirmasi diterima, diperiksa, dan dokumen valid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1080" width="330" height="130" />
+        </mxCell>
+        <mxCell id="edge-21" value="Verifikasi dikonfirmasi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="manual" target="register">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="physical" value="Cetak, tempel, dan serah terima memerlukan konfirmasi petugas. Sistem tidak membuktikan tindakan fisik secara otomatis." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1000" y="1360" width="380" height="140" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-2" name="02 DFD Konteks">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="02 DFD Konteks" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="1540" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="1540" height="30" />
+        </mxCell>
+        <mxCell id="system" value="0&lt;br&gt;SIIP Inventaris" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="620" y="340" width="360" height="200" />
+        </mxCell>
+        <mxCell id="user" value="Pengaju atau Pengguna" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="170" width="320" height="100" />
+        </mxCell>
+        <mxCell id="ops" value="Operasional atau Super Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="610" width="320" height="100" />
+        </mxCell>
+        <mxCell id="fin" value="Keuangan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="170" width="320" height="100" />
+        </mxCell>
+        <mxCell id="dir" value="Direksi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1190" y="610" width="320" height="100" />
+        </mxCell>
+        <mxCell id="edge-2" value="Kebutuhan dan draf pengajuan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="user" target="system">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="Status, surat, informasi aset" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="system" target="user">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="Master, PO, penerimaan, verifikasi, impor, mutasi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="ops" target="system">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="Sisa kuota, nomor, label QR, ekspor, audit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="system" target="ops">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="Keputusan dan pilihan alternatif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="fin" target="system">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="Pengajuan untuk review" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="system" target="fin">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-8" value="Keputusan pengajuan dan PO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="dir" target="system">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="Rekomendasi Keuangan dan PO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="system" target="dir">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="scope" value="Vendor tidak memiliki portal pada implementasi ini. Data vendor, barang, dan dokumen penerimaan dicatat petugas. Penerusan persetujuan menggunakan status aplikasi; tidak ada email otomatis." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="300" y="830" width="1000" height="110" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-3" name="03 DFD Level 1">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="03 DFD Level 1" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="1740" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="1740" height="30" />
+        </mxCell>
+        <mxCell id="p1" value="1 Kelola master dan akses" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="180" width="330" height="100" />
+        </mxCell>
+        <mxCell id="p2" value="2 Pengajuan dan persetujuan" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="180" width="330" height="100" />
+        </mxCell>
+        <mxCell id="p3" value="3 PO dan alokasi jumlah" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1220" y="180" width="330" height="100" />
+        </mxCell>
+        <mxCell id="p4" value="4 Penerimaan dan verifikasi" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1220" y="600" width="330" height="100" />
+        </mxCell>
+        <mxCell id="p5" value="5 Inventaris nomor dan aktivasi" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="600" width="330" height="100" />
+        </mxCell>
+        <mxCell id="p6" value="6 Mutasi laporan dan audit" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="600" width="330" height="100" />
+        </mxCell>
+        <mxCell id="d1" value="D1 Users dan Master" style="shape=partialRectangle;left=0;right=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#547B52;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="370" width="330" height="75" />
+        </mxCell>
+        <mxCell id="d2" value="D2 Pengajuan Item Keputusan" style="shape=partialRectangle;left=0;right=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#547B52;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="370" width="330" height="75" />
+        </mxCell>
+        <mxCell id="d3" value="D3 PO dan Item" style="shape=partialRectangle;left=0;right=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#547B52;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1220" y="370" width="330" height="75" />
+        </mxCell>
+        <mxCell id="d4" value="D4 Penerimaan dan Item" style="shape=partialRectangle;left=0;right=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#547B52;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1220" y="800" width="330" height="75" />
+        </mxCell>
+        <mxCell id="d5" value="D5 Aset Register dan Urutan" style="shape=partialRectangle;left=0;right=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#547B52;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="800" width="330" height="75" />
+        </mxCell>
+        <mxCell id="d6" value="D6 Mutasi dan Aktivitas" style="shape=partialRectangle;left=0;right=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#547B52;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="800" width="330" height="75" />
+        </mxCell>
+        <mxCell id="edge-2" value="Simpan perubahan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p1" target="d1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="Baca data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;" edge="1" parent="1" source="d1" target="p1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="Simpan perubahan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p2" target="d2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="Baca data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;" edge="1" parent="1" source="d2" target="p2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="Simpan perubahan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p3" target="d3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="Baca data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;" edge="1" parent="1" source="d3" target="p3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-8" value="Simpan perubahan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p4" target="d4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="Baca data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;" edge="1" parent="1" source="d4" target="p4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-10" value="Simpan perubahan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p5" target="d5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-11" value="Baca data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;" edge="1" parent="1" source="d5" target="p5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-12" value="Simpan perubahan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p6" target="d6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-13" value="Baca data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;" edge="1" parent="1" source="d6" target="p6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-14" value="Pengajuan disetujui dan alternatif terpilih" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p2" target="p3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-15" value="PO disetujui dan sisa penerimaan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p3" target="p4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-16" value="Barang dan dokumen terverifikasi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p4" target="p5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-17" value="Posisi dan status aset" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p5" target="p6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-18" value="Master barang kategori lokasi ruangan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="p1" target="p5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="actors" value="Pengaju → P2: draf dan kirim • Keuangan/Direksi → P2: review • Operasional → P1/P3/P4/P5/P6: pencatatan • Direksi → P3: keputusan PO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="1010" width="1500" height="90" />
+        </mxCell>
+        <mxCell id="files" value="Aliran berkas: Excel → P5 preview dan pemetaan → konfirmasi batch; P6 → Excel/CSV; P2 → Word/halaman surat; P5 → label dan QR nomor." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="1120" width="1500" height="90" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-4" name="04 Flowmap Antar Bagian">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="04 Flowmap Antar Bagian" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="1840" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="1840" height="30" />
+        </mxCell>
+        <mxCell id="lane0" value="" style="rounded=0;fillColor=#FAFAFA;strokeColor=#D0D0D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="120" width="350" height="1570" />
+        </mxCell>
+        <mxCell id="lanehead0" value="Pengaju atau Pengguna" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#8097AE;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="120" width="350" height="55" />
+        </mxCell>
+        <mxCell id="lane1" value="" style="rounded=0;fillColor=#FAFAFA;strokeColor=#D0D0D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="400" y="120" width="350" height="1570" />
+        </mxCell>
+        <mxCell id="lanehead1" value="Keuangan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#8097AE;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="400" y="120" width="350" height="55" />
+        </mxCell>
+        <mxCell id="lane2" value="" style="rounded=0;fillColor=#FAFAFA;strokeColor=#D0D0D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="120" width="350" height="1570" />
+        </mxCell>
+        <mxCell id="lanehead2" value="Direksi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#8097AE;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="770" y="120" width="350" height="55" />
+        </mxCell>
+        <mxCell id="lane3" value="" style="rounded=0;fillColor=#FAFAFA;strokeColor=#D0D0D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1140" y="120" width="350" height="1570" />
+        </mxCell>
+        <mxCell id="lanehead3" value="Operasional" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#8097AE;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1140" y="120" width="350" height="55" />
+        </mxCell>
+        <mxCell id="lane4" value="" style="rounded=0;fillColor=#FAFAFA;strokeColor=#D0D0D0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1510" y="120" width="350" height="1570" />
+        </mxCell>
+        <mxCell id="lanehead4" value="Sistem SIIP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#8097AE;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1510" y="120" width="350" height="55" />
+        </mxCell>
+        <mxCell id="a" value="Ajukan kebutuhan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="220" width="310" height="75" />
+        </mxCell>
+        <mxCell id="b" value="Simpan draf dan kirim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1530" y="220" width="310" height="75" />
+        </mxCell>
+        <mxCell id="c" value="Review harga dan alternatif" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="420" y="390" width="310" height="75" />
+        </mxCell>
+        <mxCell id="d" value="Review keputusan akhir" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="550" width="310" height="75" />
+        </mxCell>
+        <mxCell id="e" value="Simpan keputusan dan status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1530" y="550" width="310" height="75" />
+        </mxCell>
+        <mxCell id="f" value="Buat PO dari pengajuan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="710" width="310" height="75" />
+        </mxCell>
+        <mxCell id="g" value="Validasi sisa jumlah dan simpan PO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1530" y="710" width="310" height="75" />
+        </mxCell>
+        <mxCell id="h" value="Setujui PO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="870" width="310" height="75" />
+        </mxCell>
+        <mxCell id="i" value="Terima barang dan periksa fisik" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="1030" width="310" height="75" />
+        </mxCell>
+        <mxCell id="j" value="Verifikasi dokumen dan input inventaris" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="1190" width="310" height="75" />
+        </mxCell>
+        <mxCell id="k" value="Terbitkan nomor dan sediakan label" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1530" y="1190" width="310" height="75" />
+        </mxCell>
+        <mxCell id="l" value="Cetak tempel label dan tempatkan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="1350" width="310" height="75" />
+        </mxCell>
+        <mxCell id="m" value="Terima barang sesuai berita acara" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="1510" width="310" height="75" />
+        </mxCell>
+        <mxCell id="n" value="Konfirmasi serah terima" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1160" y="1510" width="310" height="75" />
+        </mxCell>
+        <mxCell id="o" value="Aktifkan barang dan simpan audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#426782;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1530" y="1510" width="310" height="75" />
+        </mxCell>
+        <mxCell id="edge-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="d" target="e">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="f" target="g">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="g" target="h">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="h" target="i">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="i" target="j">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="j" target="k">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="k" target="l">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="l" target="m">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="m" target="n">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;" edge="1" parent="1" source="n" target="o">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="flowmap-note" value="Panah lintas bagian menggambarkan aliran pekerjaan/informasi dalam aplikasi, bukan pengiriman email. Penolakan menghentikan jalur persetujuan. Aktivitas fisik dicatat petugas." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1710" width="1830" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-5" name="05 ERD Pengadaan dan Penerimaan">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="05 ERD Pengadaan dan Penerimaan" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2040" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2040" height="30" />
+        </mxCell>
+        <mxCell id="users" value="&lt;b&gt;users&lt;/b&gt;&lt;br&gt;PK id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="140" width="360" height="73" />
+        </mxCell>
+        <mxCell id="procurement_requests" value="&lt;b&gt;procurement_requests&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK requester_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="140" width="360" height="101" />
+        </mxCell>
+        <mxCell id="procurement_request_items" value="&lt;b&gt;procurement_request_items&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK procurement_request_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="530" width="360" height="101" />
+        </mxCell>
+        <mxCell id="procurement_decisions" value="&lt;b&gt;procurement_decisions&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK procurement_request_id&lt;br&gt;FK reviewer_id&lt;br&gt;FK selected_item_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="900" width="360" height="157" />
+        </mxCell>
+        <mxCell id="purchase_orders" value="&lt;b&gt;purchase_orders&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK procurement_request_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1080" y="140" width="360" height="101" />
+        </mxCell>
+        <mxCell id="purchase_order_items" value="&lt;b&gt;purchase_order_items&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK purchase_order_id&lt;br&gt;FK procurement_request_item_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1080" y="530" width="360" height="129" />
+        </mxCell>
+        <mxCell id="goods_receipts" value="&lt;b&gt;goods_receipts&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK purchase_order_id&lt;br&gt;FK inspected_by [null]&lt;br&gt;FK documents_verified_by [null]&lt;br&gt;FK registered_by [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1600" y="140" width="360" height="185" />
+        </mxCell>
+        <mxCell id="goods_receipt_items" value="&lt;b&gt;goods_receipt_items&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK goods_receipt_id&lt;br&gt;FK purchase_order_item_id&lt;br&gt;FK asset_category_id [null]&lt;br&gt;FK location_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1600" y="650" width="360" height="185" />
+        </mxCell>
+        <mxCell id="edge-2" value="goods_receipt_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="goods_receipts" target="goods_receipt_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="purchase_order_item_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="purchase_order_items" target="goods_receipt_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="documents_verified_by | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="goods_receipts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="inspected_by | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="goods_receipts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="purchase_order_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="purchase_orders" target="goods_receipts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="registered_by | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="goods_receipts">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-8" value="procurement_request_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="procurement_requests" target="procurement_decisions">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="reviewer_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="procurement_decisions">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-10" value="selected_item_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="procurement_request_items" target="procurement_decisions">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-11" value="procurement_request_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="procurement_requests" target="procurement_request_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-12" value="requester_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="procurement_requests">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-13" value="procurement_request_item_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="procurement_request_items" target="purchase_order_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-14" value="purchase_order_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="purchase_orders" target="purchase_order_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-15" value="procurement_request_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="procurement_requests" target="purchase_orders">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="legend" value="PK = primary key • FK = foreign key • [null] = opsional. Setiap baris anak merujuk satu induk (atau 0..1 bila nullable); satu induk dapat memiliki 0..N anak. Semua kolom dan indeks tersedia pada halaman tabel." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1550" width="2000" height="110" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-6" name="06 ERD Inventaris Master dan Audit">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="06 ERD Inventaris Master dan Audit" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2040" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2040" height="30" />
+        </mxCell>
+        <mxCell id="users" value="&lt;b&gt;users&lt;/b&gt;&lt;br&gt;PK id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="140" width="360" height="73" />
+        </mxCell>
+        <mxCell id="asset_categories" value="&lt;b&gt;asset_categories&lt;/b&gt;&lt;br&gt;PK id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="140" width="360" height="73" />
+        </mxCell>
+        <mxCell id="locations" value="&lt;b&gt;locations&lt;/b&gt;&lt;br&gt;PK id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1080" y="140" width="360" height="73" />
+        </mxCell>
+        <mxCell id="rooms" value="&lt;b&gt;rooms&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK location_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1600" y="140" width="360" height="101" />
+        </mxCell>
+        <mxCell id="catalog_items" value="&lt;b&gt;catalog_items&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK asset_category_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="570" width="360" height="101" />
+        </mxCell>
+        <mxCell id="goods_receipt_items" value="&lt;b&gt;goods_receipt_items&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK goods_receipt_id&lt;br&gt;FK purchase_order_item_id&lt;br&gt;FK asset_category_id [null]&lt;br&gt;FK location_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="570" width="360" height="185" />
+        </mxCell>
+        <mxCell id="assets" value="&lt;b&gt;assets&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK asset_category_id&lt;br&gt;FK location_id&lt;br&gt;FK room_id [null]&lt;br&gt;FK catalog_item_id [null]&lt;br&gt;FK goods_receipt_item_id [null]&lt;br&gt;FK verification_confirmed_by [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1080" y="570" width="360" height="241" />
+        </mxCell>
+        <mxCell id="asset_mutations" value="&lt;b&gt;asset_mutations&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK asset_id&lt;br&gt;FK from_location_id [null]&lt;br&gt;FK to_location_id [null]&lt;br&gt;FK from_room_id [null]&lt;br&gt;FK to_room_id [null]&lt;br&gt;FK moved_by_user_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1600" y="570" width="360" height="241" />
+        </mxCell>
+        <mxCell id="asset_activities" value="&lt;b&gt;asset_activities&lt;/b&gt;&lt;br&gt;PK id&lt;br&gt;FK asset_id&lt;br&gt;FK user_id [null]" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1000" width="360" height="129" />
+        </mxCell>
+        <mxCell id="issued_inventory_numbers" value="&lt;b&gt;issued_inventory_numbers&lt;/b&gt;&lt;br&gt;PK asset_number" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="1000" width="360" height="73" />
+        </mxCell>
+        <mxCell id="inventory_number_settings" value="&lt;b&gt;inventory_number_settings&lt;/b&gt;&lt;br&gt;PK id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1080" y="1000" width="360" height="73" />
+        </mxCell>
+        <mxCell id="inventory_number_sequences" value="&lt;b&gt;inventory_number_sequences&lt;/b&gt;&lt;br&gt;PK scope" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#FFFFFF;strokeColor=#66809A;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1600" y="1000" width="360" height="73" />
+        </mxCell>
+        <mxCell id="edge-2" value="asset_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="assets" target="asset_activities">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-3" value="user_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="asset_activities">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="asset_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="assets" target="asset_mutations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" value="from_location_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="locations" target="asset_mutations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" value="from_room_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="rooms" target="asset_mutations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-7" value="moved_by_user_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="asset_mutations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-8" value="to_location_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="locations" target="asset_mutations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" value="to_room_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="rooms" target="asset_mutations">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-10" value="asset_category_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="asset_categories" target="assets">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-11" value="catalog_item_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="catalog_items" target="assets">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-12" value="goods_receipt_item_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="goods_receipt_items" target="assets">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-13" value="location_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="locations" target="assets">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-14" value="room_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="rooms" target="assets">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-15" value="verification_confirmed_by | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="users" target="assets">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-16" value="asset_category_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="asset_categories" target="catalog_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-17" value="asset_category_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="asset_categories" target="goods_receipt_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-18" value="location_id | 0..1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="locations" target="goods_receipt_items">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-19" value="location_id | 1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;startArrow=ERone;endArrow=ERmany;" edge="1" parent="1" source="locations" target="rooms">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="legend" value="PK = primary key • FK = foreign key • [null] = opsional. Setiap baris anak merujuk satu induk (atau 0..1 bila nullable); satu induk dapat memiliki 0..N anak. Semua kolom dan indeks tersedia pada halaman tabel." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1550" width="2000" height="110" />
+        </mxCell>
+        <mxCell id="edge-20" value="original_asset_id | relasi logis tanpa FK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=11;labelBackgroundColor=#FFFFFF;strokeColor=#526577;dashed=1;endArrow=open;startArrow=none;" edge="1" parent="1" source="assets" target="issued_inventory_numbers">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="permanent" value="Register nomor permanen tidak memiliki FK ke aset, agar nomor tetap dicadangkan setelah aset dihapus. Settings dan sequences dikoordinasikan service; tidak ada FK langsung ke aset." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1430" width="2000" height="90" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-7" name="07 Tabel Pengajuan">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1333" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="07 Tabel Pengajuan" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2340" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2340" height="30" />
+        </mxCell>
+        <mxCell id="users" value="&lt;b style=&quot;font-size:17px&quot;&gt;users&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;email UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;role &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / staff&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;email_verified_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;password &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;remember_token &lt;/td&gt;&lt;td&gt;varchar(100)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;users_email_unique: email [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="130" width="750" height="406" />
+        </mxCell>
+        <mxCell id="procurement_requests" value="&lt;b style=&quot;font-size:17px&quot;&gt;procurement_requests&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;submission_key UQ&lt;/td&gt;&lt;td&gt;char(36)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;letter_number UQ&lt;/td&gt;&lt;td&gt;varchar(100)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;requester_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;requester_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;division &lt;/td&gt;&lt;td&gt;varchar(150)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;subject &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;request_date &lt;/td&gt;&lt;td&gt;date&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;purpose &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;selection_mode &lt;/td&gt;&lt;td&gt;varchar(20)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status IDX&lt;/td&gt;&lt;td&gt;varchar(30)&lt;/td&gt;&lt;td&gt;Tidak / draft&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;version &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Tidak / 1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;estimated_total &lt;/td&gt;&lt;td&gt;decimal(18,2)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;submitted_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;procurement_requests_letter_number_unique: letter_number [UNIQUE]&lt;br&gt;procurement_requests_requester_id_created_at_index: requester_id, created_at&lt;br&gt;procurement_requests_status_index: status&lt;br&gt;procurement_requests_submission_key_unique: submission_key [UNIQUE]&lt;br&gt;FK requester_id → users.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="130" width="750" height="718" />
+        </mxCell>
+        <mxCell id="procurement_request_items" value="&lt;b style=&quot;font-size:17px&quot;&gt;procurement_request_items&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;procurement_request_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;category &lt;/td&gt;&lt;td&gt;varchar(100)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;quantity &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unit &lt;/td&gt;&lt;td&gt;varchar(50)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;specification &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;estimated_unit_price &lt;/td&gt;&lt;td&gt;decimal(12,2)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;subtotal &lt;/td&gt;&lt;td&gt;decimal(18,2)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;procurement_request_items_procurement_request_id_foreign: procurement_request_id&lt;br&gt;FK procurement_request_id → procurement_requests.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="130" width="750" height="484" />
+        </mxCell>
+        <mxCell id="procurement_decisions" value="&lt;b style=&quot;font-size:17px&quot;&gt;procurement_decisions&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;procurement_request_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;reviewer_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;reviewer_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;level &lt;/td&gt;&lt;td&gt;varchar(20)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;decision &lt;/td&gt;&lt;td&gt;varchar(20)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;version &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;selected_item_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;decided_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;procurement_decisions_procurement_request_id_level_unique: procurement_request_id, level [UNIQUE]&lt;br&gt;procurement_decisions_reviewer_id_foreign: reviewer_id&lt;br&gt;procurement_decisions_selected_item_id_foreign: selected_item_id&lt;br&gt;FK procurement_request_id → procurement_requests.id&lt;br&gt;FK reviewer_id → users.id&lt;br&gt;FK selected_item_id → procurement_request_items.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="571" width="750" height="607" />
+        </mxCell>
+        <mxCell id="note" value="Schema fisik MySQL. PK primary key; UQ unique; IDX indeks nonunique; FK relasi referensial. Indeks komposit dirinci di bawah setiap tabel. Kolom asli dan nullable dipertahankan." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1223" width="2300" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-8" name="08 Tabel PO dan Penerimaan">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1507" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="08 Tabel PO dan Penerimaan" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2340" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2340" height="30" />
+        </mxCell>
+        <mxCell id="purchase_orders" value="&lt;b style=&quot;font-size:17px&quot;&gt;purchase_orders&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;order_number UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;vendor_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;order_date &lt;/td&gt;&lt;td&gt;date&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / draft&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;total_amount &lt;/td&gt;&lt;td&gt;decimal(12,2)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;procurement_request_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;procurement_request_version &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;purchase_orders_order_number_unique: order_number [UNIQUE]&lt;br&gt;purchase_orders_procurement_request_id_foreign: procurement_request_id&lt;br&gt;FK procurement_request_id → procurement_requests.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="130" width="750" height="508" />
+        </mxCell>
+        <mxCell id="purchase_order_items" value="&lt;b style=&quot;font-size:17px&quot;&gt;purchase_order_items&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;purchase_order_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;item_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;quantity &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unit_price &lt;/td&gt;&lt;td&gt;decimal(12,2)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;received_quantity &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / 0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;procurement_request_item_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;purchase_order_items_procurement_request_item_id_foreign: procurement_request_item_id&lt;br&gt;purchase_order_items_purchase_order_id_foreign: purchase_order_id&lt;br&gt;FK procurement_request_item_id → procurement_request_items.id&lt;br&gt;FK purchase_order_id → purchase_orders.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="130" width="750" height="505" />
+        </mxCell>
+        <mxCell id="goods_receipts" value="&lt;b style=&quot;font-size:17px&quot;&gt;goods_receipts&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;purchase_order_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;receipt_number UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;received_at &lt;/td&gt;&lt;td&gt;date&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / received&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;workflow_stage &lt;/td&gt;&lt;td&gt;varchar(30)&lt;/td&gt;&lt;td&gt;Tidak / legacy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;inspected_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;inspected_by IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;inspection_notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;documents_verified_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;documents_verified_by IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;document_reference &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;registered_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;registered_by IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;goods_receipts_documents_verified_by_foreign: documents_verified_by&lt;br&gt;goods_receipts_inspected_by_foreign: inspected_by&lt;br&gt;goods_receipts_purchase_order_id_foreign: purchase_order_id&lt;br&gt;goods_receipts_receipt_number_unique: receipt_number [UNIQUE]&lt;br&gt;goods_receipts_registered_by_foreign: registered_by&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;FK documents_verified_by → users.id&lt;br&gt;FK inspected_by → users.id&lt;br&gt;FK purchase_order_id → purchase_orders.id&lt;br&gt;FK registered_by → users.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="130" width="750" height="814" />
+        </mxCell>
+        <mxCell id="goods_receipt_items" value="&lt;b style=&quot;font-size:17px&quot;&gt;goods_receipt_items&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;goods_receipt_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;purchase_order_item_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;item_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;quantity_received &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_number &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_category_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;location_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;condition &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;usage_status &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;goods_receipt_items_asset_category_id_foreign: asset_category_id&lt;br&gt;goods_receipt_items_goods_receipt_id_foreign: goods_receipt_id&lt;br&gt;goods_receipt_items_location_id_foreign: location_id&lt;br&gt;goods_receipt_items_purchase_order_item_id_foreign: purchase_order_item_id&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;FK asset_category_id → asset_categories.id&lt;br&gt;FK goods_receipt_id → goods_receipts.id&lt;br&gt;FK location_id → locations.id&lt;br&gt;FK purchase_order_item_id → purchase_order_items.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="670" width="750" height="682" />
+        </mxCell>
+        <mxCell id="note" value="Schema fisik MySQL. PK primary key; UQ unique; IDX indeks nonunique; FK relasi referensial. Indeks komposit dirinci di bawah setiap tabel. Kolom asli dan nullable dipertahankan." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1397" width="2300" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-9" name="09 Tabel Aset dan Audit">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1462" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="09 Tabel Aset dan Audit" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2340" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2340" height="30" />
+        </mxCell>
+        <mxCell id="assets" value="&lt;b style=&quot;font-size:17px&quot;&gt;assets&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_number UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_category_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;serial_number &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;location_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;room_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;condition &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;usage_status &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;purchase_price &lt;/td&gt;&lt;td&gt;decimal(12,2)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;acquired_at &lt;/td&gt;&lt;td&gt;date&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;catalog_item_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;goods_receipt_item_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;receipt_unit_index &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;activation_stage IDX&lt;/td&gt;&lt;td&gt;varchar(30)&lt;/td&gt;&lt;td&gt;Tidak / active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;verification_confirmed_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;verification_confirmed_by IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;label_printed_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;label_attached_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;placed_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;handed_over_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;recipient_name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;handover_reference &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;assets_activation_stage_index: activation_stage&lt;br&gt;assets_asset_category_id_foreign: asset_category_id&lt;br&gt;assets_asset_number_unique: asset_number [UNIQUE]&lt;br&gt;assets_catalog_item_id_foreign: catalog_item_id&lt;br&gt;assets_location_id_foreign: location_id&lt;br&gt;assets_receipt_unit_unique: goods_receipt_item_id, receipt_unit_index [UNIQUE]&lt;br&gt;assets_room_id_foreign: room_id&lt;br&gt;assets_verification_confirmed_by_foreign: verification_confirmed_by&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;FK asset_category_id → asset_categories.id&lt;br&gt;FK catalog_item_id → catalog_items.id&lt;br&gt;FK goods_receipt_item_id → goods_receipt_items.id&lt;br&gt;FK location_id → locations.id&lt;br&gt;FK room_id → rooms.id&lt;br&gt;FK verification_confirmed_by → users.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="130" width="750" height="1177" />
+        </mxCell>
+        <mxCell id="asset_activities" value="&lt;b style=&quot;font-size:17px&quot;&gt;asset_activities&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;user_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;activity_type &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;message &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;details &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;occurred_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Tidak / CURRENT_TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;asset_activities_asset_id_foreign: asset_id&lt;br&gt;asset_activities_user_id_foreign: user_id&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;FK asset_id → assets.id&lt;br&gt;FK user_id → users.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="130" width="750" height="478" />
+        </mxCell>
+        <mxCell id="asset_mutations" value="&lt;b style=&quot;font-size:17px&quot;&gt;asset_mutations&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;from_location_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;to_location_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;from_room_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;to_room_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;moved_by_user_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notes &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;moved_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Tidak / CURRENT_TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;asset_mutations_asset_id_foreign: asset_id&lt;br&gt;asset_mutations_from_location_id_foreign: from_location_id&lt;br&gt;asset_mutations_from_room_id_foreign: from_room_id&lt;br&gt;asset_mutations_moved_by_user_id_foreign: moved_by_user_id&lt;br&gt;asset_mutations_to_location_id_foreign: to_location_id&lt;br&gt;asset_mutations_to_room_id_foreign: to_room_id&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;FK asset_id → assets.id&lt;br&gt;FK from_location_id → locations.id&lt;br&gt;FK from_room_id → rooms.id&lt;br&gt;FK moved_by_user_id → users.id&lt;br&gt;FK to_location_id → locations.id&lt;br&gt;FK to_room_id → rooms.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="130" width="750" height="724" />
+        </mxCell>
+        <mxCell id="note" value="Schema fisik MySQL. PK primary key; UQ unique; IDX indeks nonunique; FK relasi referensial. Indeks komposit dirinci di bawah setiap tabel. Kolom asli dan nullable dipertahankan." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1352" width="2300" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-10" name="10 Tabel Master dan Penomoran">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1117" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="10 Tabel Master dan Penomoran" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2340" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2340" height="30" />
+        </mxCell>
+        <mxCell id="asset_categories" value="&lt;b style=&quot;font-size:17px&quot;&gt;asset_categories&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;code UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;asset_categories_code_unique: code [UNIQUE]&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="130" width="750" height="325" />
+        </mxCell>
+        <mxCell id="locations" value="&lt;b style=&quot;font-size:17px&quot;&gt;locations&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;code UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;description &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;locations_code_unique: code [UNIQUE]&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="130" width="750" height="325" />
+        </mxCell>
+        <mxCell id="rooms" value="&lt;b style=&quot;font-size:17px&quot;&gt;rooms&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;location_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;code &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;rooms_location_id_code_unique: location_id, code [UNIQUE]&lt;br&gt;FK location_id → locations.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="130" width="750" height="349" />
+        </mxCell>
+        <mxCell id="catalog_items" value="&lt;b style=&quot;font-size:17px&quot;&gt;catalog_items&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;code UQ&lt;/td&gt;&lt;td&gt;varchar(50)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_category_id IDX FK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unit &lt;/td&gt;&lt;td&gt;varchar(50)&lt;/td&gt;&lt;td&gt;Tidak / Unit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;specification &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;catalog_items_asset_category_id_foreign: asset_category_id&lt;br&gt;catalog_items_code_unique: code [UNIQUE]&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;FK asset_category_id → asset_categories.id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="490" width="750" height="427" />
+        </mxCell>
+        <mxCell id="inventory_number_settings" value="&lt;b style=&quot;font-size:17px&quot;&gt;inventory_number_settings&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;prefix &lt;/td&gt;&lt;td&gt;varchar(20)&lt;/td&gt;&lt;td&gt;Tidak / INV&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;include_item_code &lt;/td&gt;&lt;td&gt;tinyint(1)&lt;/td&gt;&lt;td&gt;Tidak / 0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;updated_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="490" width="750" height="274" />
+        </mxCell>
+        <mxCell id="inventory_number_sequences" value="&lt;b style=&quot;font-size:17px&quot;&gt;inventory_number_sequences&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;scope PK&lt;/td&gt;&lt;td&gt;varchar(120)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;last_number &lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / 0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: scope [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="514" width="750" height="193" />
+        </mxCell>
+        <mxCell id="issued_inventory_numbers" value="&lt;b style=&quot;font-size:17px&quot;&gt;issued_inventory_numbers&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;asset_number PK&lt;/td&gt;&lt;td&gt;varchar(100)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;original_asset_id &lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;issued_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: asset_number [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="742" width="750" height="220" />
+        </mxCell>
+        <mxCell id="note" value="Schema fisik MySQL. PK primary key; UQ unique; IDX indeks nonunique; FK relasi referensial. Indeks komposit dirinci di bawah setiap tabel. Kolom asli dan nullable dipertahankan." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1007" width="2300" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-11" name="11 Tabel Infrastruktur">
+    <mxGraphModel dx="1600" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1195" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="11 Tabel Infrastruktur" style="text;html=1;align=left;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="20" width="2340" height="40" />
+        </mxCell>
+        <mxCell id="subtitle" value="SIIP Inventaris • Snapshot schema 7 Oktober 2026 • Diagram sesuai implementasi" style="text;html=1;align=left;fontSize=13;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="65" width="2340" height="30" />
+        </mxCell>
+        <mxCell id="sessions" value="&lt;b style=&quot;font-size:17px&quot;&gt;sessions&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;user_id IDX&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ip_address &lt;/td&gt;&lt;td&gt;varchar(45)&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;user_agent &lt;/td&gt;&lt;td&gt;text&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;payload &lt;/td&gt;&lt;td&gt;longtext&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;last_activity IDX&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;sessions_last_activity_index: last_activity&lt;br&gt;sessions_user_id_index: user_id&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="130" width="750" height="349" />
+        </mxCell>
+        <mxCell id="password_reset_tokens" value="&lt;b style=&quot;font-size:17px&quot;&gt;password_reset_tokens&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;email PK&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;token &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: email [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="130" width="750" height="220" />
+        </mxCell>
+        <mxCell id="cache" value="&lt;b style=&quot;font-size:17px&quot;&gt;cache&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;key PK&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;value &lt;/td&gt;&lt;td&gt;mediumtext&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;expiration IDX&lt;/td&gt;&lt;td&gt;bigint&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;cache_expiration_index: expiration&lt;br&gt;PRIMARY: key [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="130" width="750" height="244" />
+        </mxCell>
+        <mxCell id="cache_locks" value="&lt;b style=&quot;font-size:17px&quot;&gt;cache_locks&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;key PK&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;owner &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;expiration IDX&lt;/td&gt;&lt;td&gt;bigint&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;cache_locks_expiration_index: expiration&lt;br&gt;PRIMARY: key [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="385" width="750" height="244" />
+        </mxCell>
+        <mxCell id="jobs" value="&lt;b style=&quot;font-size:17px&quot;&gt;jobs&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;queue IDX&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;payload &lt;/td&gt;&lt;td&gt;longtext&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;attempts &lt;/td&gt;&lt;td&gt;smallint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;reserved_at &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;available_at &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;jobs_queue_index: queue&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="409" width="750" height="352" />
+        </mxCell>
+        <mxCell id="job_batches" value="&lt;b style=&quot;font-size:17px&quot;&gt;job_batches&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;total_jobs &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pending_jobs &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;failed_jobs &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;failed_job_ids &lt;/td&gt;&lt;td&gt;longtext&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;options &lt;/td&gt;&lt;td&gt;mediumtext&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;cancelled_at &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;created_at &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;finished_at &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Ya / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="514" width="750" height="409" />
+        </mxCell>
+        <mxCell id="failed_jobs" value="&lt;b style=&quot;font-size:17px&quot;&gt;failed_jobs&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;bigint unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;uuid UQ&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;connection IDX&lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;queue &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;payload &lt;/td&gt;&lt;td&gt;longtext&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;exception &lt;/td&gt;&lt;td&gt;longtext&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;failed_at &lt;/td&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;Tidak / CURRENT_TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;failed_jobs_connection_queue_failed_at_index: connection, queue, failed_at&lt;br&gt;failed_jobs_uuid_unique: uuid [UNIQUE]&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="820" y="664" width="750" height="376" />
+        </mxCell>
+        <mxCell id="migrations" value="&lt;b style=&quot;font-size:17px&quot;&gt;migrations&lt;/b&gt;&lt;br&gt;&lt;table style=&quot;width:100%;border-collapse:collapse&quot; border=&quot;1&quot; cellpadding=&quot;5&quot;&gt;&lt;tr style=&quot;background:#E5EBF1&quot;&gt;&lt;th&gt;Kolom dan kunci&lt;/th&gt;&lt;th&gt;Tipe&lt;/th&gt;&lt;th&gt;NULL / Default&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;id PK&lt;/td&gt;&lt;td&gt;int unsigned&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;migration &lt;/td&gt;&lt;td&gt;varchar(255)&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;batch &lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;Tidak / —&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;Indeks aktual&lt;/b&gt;&lt;br&gt;PRIMARY: id [UNIQUE]&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#FFFFFF;strokeColor=#879BAF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1610" y="796" width="750" height="220" />
+        </mxCell>
+        <mxCell id="note" value="Schema fisik MySQL. PK primary key; UQ unique; IDX indeks nonunique; FK relasi referensial. Indeks komposit dirinci di bawah setiap tabel. Kolom asli dan nullable dipertahankan." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF8E1;strokeColor=#BCA76B;fontSize=13;align=left;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="30" y="1085" width="2300" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
