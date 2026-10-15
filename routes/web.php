@@ -27,6 +27,7 @@ Route::middleware('guest')->group(function () {
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware('auth')->group(function () {
+    Route::view('/bantuan', 'help.index')->name('bantuan.index');
     Route::get('/pengajuan', [ProcurementRequestController::class, 'index'])->name('pengajuan.index');
     Route::get('/pengajuan/create', [ProcurementRequestController::class, 'create'])->name('pengajuan.create');
     Route::post('/pengajuan', [ProcurementRequestController::class, 'store'])->name('pengajuan.store');

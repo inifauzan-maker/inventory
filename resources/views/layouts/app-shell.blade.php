@@ -22,7 +22,7 @@
                     <button id="closeSidebar" type="button" class="rounded-lg border border-slate-700 p-2 text-slate-300 hover:bg-slate-800 md:hidden">✕</button>
                 </div>
 
-                <nav class="space-y-2">
+                <nav class="min-h-0 flex-1 space-y-2 overflow-y-auto pb-4" aria-label="Menu utama">
                     <a href="{{ route('pengajuan.index') }}" class="block rounded-xl px-3 py-2.5 text-sm text-slate-300 hover:bg-slate-800 hover:text-white {{ request()->routeIs('pengajuan.*') ? 'bg-sky-500/20 text-sky-100' : '' }}">Pengajuan Barang</a>
                     <a href="{{ route('inventaris.index') }}" class="flex items-center justify-between rounded-xl px-3 py-2.5 text-sm text-slate-300 transition hover:bg-slate-800 hover:text-white {{ request()->routeIs('inventaris.index') ? 'bg-sky-500/20 text-sky-100 ring-1 ring-sky-400/30' : '' }}">
                         <span>Dashboard</span>
@@ -56,6 +56,7 @@
                     @if ($user && $user->hasAnyRole([App\Models\User::ROLE_SUPERADMIN, App\Models\User::ROLE_OPERASIONAL, App\Models\User::ROLE_STAFF, App\Models\User::ROLE_AKADEMIK]))
                         <a href="{{ route('aset.create') }}" class="block rounded-xl bg-emerald-600 px-3 py-2.5 text-sm font-medium text-white transition hover:bg-emerald-500 {{ request()->routeIs('aset.create') ? 'bg-emerald-500' : '' }}">Tambah Aset</a>
                     @endif
+                    <a href="{{ route('bantuan.index') }}" @if(request()->routeIs('bantuan.*')) aria-current="page" @endif class="block rounded-xl px-3 py-2.5 text-sm text-slate-300 hover:bg-slate-800 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-400 {{ request()->routeIs('bantuan.*') ? 'bg-sky-500/20 text-sky-100 ring-1 ring-sky-400/30' : '' }}">Bantuan</a>
                 </nav>
 
                 <div class="mt-auto rounded-2xl border border-slate-700 bg-slate-800/60 p-4">

@@ -20,7 +20,7 @@ Prioritas: segera, sebelum menambah modul baru.
 - [ ] Uji alur nyata pengajuan disetujui → PO sebagian → PO berikutnya → penerimaan sebagian → inventaris.
 - [x] Tambahkan uji paralel MySQL untuk kuota PO: dua permintaan memesan sisa jumlah yang sama; total tidak boleh melampaui persetujuan. Hasil 7 Oktober 2026: satu PO draf tersimpan, satu ditolak; jumlah kumulatif satu unit.
 - [ ] Uji surat PO dan BAST Word dengan banyak baris, nama panjang, catatan panjang, dan karakter khusus.
-- [ ] Pastikan snapshot BAST tetap sama setelah perubahan lokasi, kondisi, serial, dan nama petugas.
+- [x] Pastikan snapshot BAST tetap sama setelah perubahan lokasi, kondisi, serial, dan nama petugas. Uji 13 Oktober 2026 juga mencakup perubahan nama ruangan, halaman cetak, dan berkas Word.
 - [ ] Konfirmasikan pindai QR dari layar menggunakan ponsel; isi harus tepat sama dengan nomor inventaris.
 - [ ] Uji cetak label di kertas ketika printer tersedia: ukuran, skala 100%, keterbacaan, dan hasil pindai.
 - [ ] Periksa tampilan desktop serta ponsel untuk form, tabel, tombol cetak, dan pesan kegagalan.
@@ -135,3 +135,9 @@ Pekerjaan paling dekat yang disarankan: **tuntaskan verifikasi impor/ekspor brow
 Uji MySQL terisolasi: 3 tes lulus, 24 assertions. Cakupan: penomoran paralel, batas penerimaan, dan kuota PO dari pengajuan. Database uji dibuat sementara lalu dibersihkan; tidak mengubah transaksi database inventaris. Perilaku layanan kuota PO yang ada memenuhi skenario ini sehingga tidak diperlukan perubahan logika aplikasi.
 
 Pekerjaan berikutnya yang belum selesai: konfirmasi impor/ekspor melalui browser dan pembukaan berkas hasil unduh di Excel.
+
+## Hasil tahap pengerjaan 13 Oktober 2026
+
+Pengujian BAST terisolasi: 3 tes lulus, 35 assertions. Lokasi, ruangan, serial, kondisi, nama barang, dan nama petugas pada dokumen mengikuti snapshot serah terima meskipun data terkini berubah. Formatter lulus. Pengujian menggunakan PHP 8.4 Laragon dengan ekstensi ZIP diaktifkan khusus pada perintah uji; tidak mengubah konfigurasi server atau data operasional.
+
+Akses otomatis browser belum tersedia pada sesi ini. Verifikasi unduhan Chrome, pembukaan Excel, serta pindai QR fisik tetap belum selesai.

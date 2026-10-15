@@ -6,6 +6,7 @@ use App\AssetActivationService;
 use App\Models\Asset;
 use App\Models\AssetCategory;
 use App\Models\Location;
+use App\Models\Room;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -20,11 +21,16 @@ class AssetHandoverDocumentTest extends TestCase
         $user = User::factory()->create(['role' => User::ROLE_OPERASIONAL, 'name' => 'Petugas Awal']);
         $this->actingAs($user);
         $asset = $this->asset('placed');
+        $room = Room::create(['location_id' => $asset->location_id, 'code' => 'AWAL', 'name' => 'Ruangan Awal']);
+        $asset->update(['room_id' => $room->id]);
         (new AssetActivationService)->advance($asset, $user, 'handover', ['recipient_name' => 'Penerima Awal', 'handover_reference' => 'BAST-1', 'notes' => 'Catatan <script>aman</script>']);
-        $asset->refresh()->update(['condition' => 'rusak berat', 'name' => 'Nama Baru']);
+        $newLocation = Location::create(['code' => 'B', 'name' => 'Lokasi Baru']);
+        $asset->refresh()->update(['condition' => 'rusak berat', 'name' => 'Nama Baru', 'serial_number' => 'SN-002', 'location_id' => $newLocation->id, 'room_id' => null]);
+        $room->update(['name' => 'Ruangan Berganti Nama']);
         $user->update(['name' => 'Petugas Baru']);
 
         $this->get(route('aset.bast', $asset))->assertSee('Petugas Awal')->assertSee('Laptop Lama')->assertSee('Penerima Awal')->assertSee('&lt;script&gt;', false)->assertDontSee('DRAF REKONSTRUKSI')->assertDontSee('Nama Baru');
+        $this->get(route('aset.bast', $asset))->assertSee('Lokasi Awal')->assertSee('Ruangan Awal')->assertSee('SN-001')->assertDontSee('Lokasi Baru')->assertDontSee('SN-002')->assertDontSee('rusak berat')->assertDontSee('Petugas Baru')->assertDontSee('Ruangan Berganti Nama');
         $response = $this->get(route('aset.bast.docx', $asset));
         $response->assertDownload('BAST-Aset-'.$asset->id.'.docx');
         $path = $response->baseResponse->getFile()->getPathname();
@@ -34,6 +40,12 @@ class AssetHandoverDocumentTest extends TestCase
             $xml = $zip->getFromName('word/document.xml');
             $this->assertStringContainsString('Petugas Awal', $xml);
             $this->assertStringContainsString('Laptop Lama', $xml);
+            $this->assertStringContainsString('Lokasi Awal', $xml);
+            $this->assertStringContainsString('Ruangan Awal', $xml);
+            $this->assertStringContainsString('SN-001', $xml);
+            $this->assertStringNotContainsString('SN-002', $xml);
+            $this->assertStringNotContainsString('rusak berat', $xml);
+            $this->assertStringNotContainsString('Petugas Baru', $xml);
             $this->assertNotFalse(simplexml_load_string($xml));
             $zip->close();
         } finally {
