@@ -41,15 +41,7 @@
 
                 <button type="submit" class="w-full rounded bg-sky-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-sky-500">Masuk</button>
             </form>
-
-            <div class="mt-6 rounded bg-slate-50 p-3 text-xs text-slate-600">
-                <p class="font-semibold">Akun demo:</p>
-                <ul class="mt-2 space-y-1">
-                    <li>superadmin@siip.test / password</li>
-                    <li>operasional@siip.test / password</li>
-                    <li>keuangan@siip.test / password</li>
-                </ul>
-            </div>
+            @if(config('sso.enabled'))<a href="{{ route('sso.login') }}" class="mt-5 block w-full rounded border border-sky-600 px-4 py-2.5 text-center text-sm font-semibold text-sky-700">Masuk dengan akun SIVMI</a>@endif
         </div>
     </div>
 </body>

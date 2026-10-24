@@ -13,6 +13,7 @@ use App\Http\Controllers\LocationController;
 use App\Http\Controllers\ProcurementRequestController;
 use App\Http\Controllers\PurchaseOrderController;
 use App\Http\Controllers\RoomController;
+use App\Http\Controllers\SsoAuthController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -20,6 +21,8 @@ Route::get('/', function () {
 });
 
 Route::middleware('guest')->group(function () {
+    Route::get('/sso/login', [SsoAuthController::class, 'redirect'])->middleware('throttle:20,1')->name('sso.login');
+    Route::get('/sso/callback', [SsoAuthController::class, 'callback'])->middleware('throttle:20,1')->name('sso.callback');
     Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
     Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
 });
